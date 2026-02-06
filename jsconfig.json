@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@lib/*": ["./lib/*"],
+      "@assets/*": ["./assets/*"]
+    },
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "checkJs": true,
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": [
+    "**/*.svelte",
+    "**/*.js",
+    "**/*.js",
+    "**/*.mjs"
+  ],
+  "exclude": ["node_modules", "types"]
+}
