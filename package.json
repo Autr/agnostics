@@ -1,27 +1,27 @@
 {
   "name": "agnostics",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Autr <g@sinnott.cc>",
   "description": "featherless birds",
   "exports": {
     ".": {
-      "types": "./types/lib/index.d.ts",
+      "types": "./types/index.d.ts",
       "default": "./lib/index.js"
     },
     "./inputs": {
-      "types": "./types/lib/inputs/index.d.ts",
+      "types": "./types/inputs/index.d.ts",
       "default": "./lib/inputs/index.js"
     },
     "./helpers": {
-      "types": "./types/lib/helpers/index.d.ts",
+      "types": "./types/helpers/index.d.ts",
       "default": "./lib/helpers/index.js"
     },
     "./specification": {
-      "types": "./types/lib/specification/index.d.ts",
+      "types": "./types/specification/index.d.ts",
       "default": "./lib/specification/index.js"
     },
     "./logger": {
-      "types": "./types/lib/logger/index.d.ts",
+      "types": "./types/logger/index.d.ts",
       "default": "./lib/logger/index.js"
     }
   },
